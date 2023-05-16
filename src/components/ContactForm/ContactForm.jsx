@@ -26,6 +26,8 @@ class ContactForm extends Component {
     this.props.onSubmit(this.state);
     // в консоль при кліку на сабміт при тому, коли в App.User CL(data):
     // console.log(this.state);
+    // console.log(this.state);
+
     this.resetForm();
   };
 
